@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F04DD5391A66BEE400414C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD5381A66BEE400414C9B /* main.m */; };
+		F04DD53C1A66BEE400414C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD53B1A66BEE400414C9B /* AppDelegate.m */; };
+		F04DD53F1A66BEE400414C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD53E1A66BEE400414C9B /* ViewController.m */; };
+		F04DD5421A66BEE400414C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04DD5401A66BEE400414C9B /* Main.storyboard */; };
+		F04DD5441A66BEE400414C9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04DD5431A66BEE400414C9B /* Images.xcassets */; };
+		F04DD5501A66BEE400414C9B /* PhotoTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD54F1A66BEE400414C9B /* PhotoTimerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F04DD54A1A66BEE400414C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04DD52B1A66BEE300414C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04DD5321A66BEE400414C9B;
+			remoteInfo = PhotoTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F04DD5331A66BEE400414C9B /* PhotoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04DD5371A66BEE400414C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04DD5381A66BEE400414C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F04DD53A1A66BEE400414C9B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F04DD53B1A66BEE400414C9B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F04DD53D1A66BEE400414C9B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F04DD53E1A66BEE400414C9B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F04DD5411A66BEE400414C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F04DD5431A66BEE400414C9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F04DD5491A66BEE400414C9B /* PhotoTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04DD54E1A66BEE400414C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F04DD54F1A66BEE400414C9B /* PhotoTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTimerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F04DD5301A66BEE400414C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04DD5461A66BEE400414C9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F04DD52A1A66BEE300414C9B = {
+			isa = PBXGroup;
+			children = (
+				F04DD5351A66BEE400414C9B /* PhotoTimer */,
+				F04DD54C1A66BEE400414C9B /* PhotoTimerTests */,
+				F04DD5341A66BEE400414C9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F04DD5341A66BEE400414C9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F04DD5331A66BEE400414C9B /* PhotoTimer.app */,
+				F04DD5491A66BEE400414C9B /* PhotoTimerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F04DD5351A66BEE400414C9B /* PhotoTimer */ = {
+			isa = PBXGroup;
+			children = (
+				F04DD53A1A66BEE400414C9B /* AppDelegate.h */,
+				F04DD53B1A66BEE400414C9B /* AppDelegate.m */,
+				F04DD53D1A66BEE400414C9B /* ViewController.h */,
+				F04DD53E1A66BEE400414C9B /* ViewController.m */,
+				F04DD5401A66BEE400414C9B /* Main.storyboard */,
+				F04DD5431A66BEE400414C9B /* Images.xcassets */,
+				F04DD5361A66BEE400414C9B /* Supporting Files */,
+			);
+			path = PhotoTimer;
+			sourceTree = "<group>";
+		};
+		F04DD5361A66BEE400414C9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04DD5371A66BEE400414C9B /* Info.plist */,
+				F04DD5381A66BEE400414C9B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F04DD54C1A66BEE400414C9B /* PhotoTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F04DD54F1A66BEE400414C9B /* PhotoTimerTests.m */,
+				F04DD54D1A66BEE400414C9B /* Supporting Files */,
+			);
+			path = PhotoTimerTests;
+			sourceTree = "<group>";
+		};
+		F04DD54D1A66BEE400414C9B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F04DD54E1A66BEE400414C9B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F04DD5321A66BEE400414C9B /* PhotoTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04DD5531A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimer" */;
+			buildPhases = (
+				F04DD52F1A66BEE400414C9B /* Sources */,
+				F04DD5301A66BEE400414C9B /* Frameworks */,
+				F04DD5311A66BEE400414C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhotoTimer;
+			productName = PhotoTimer;
+			productReference = F04DD5331A66BEE400414C9B /* PhotoTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F04DD5481A66BEE400414C9B /* PhotoTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F04DD5561A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimerTests" */;
+			buildPhases = (
+				F04DD5451A66BEE400414C9B /* Sources */,
+				F04DD5461A66BEE400414C9B /* Frameworks */,
+				F04DD5471A66BEE400414C9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F04DD54B1A66BEE400414C9B /* PBXTargetDependency */,
+			);
+			name = PhotoTimerTests;
+			productName = PhotoTimerTests;
+			productReference = F04DD5491A66BEE400414C9B /* PhotoTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F04DD52B1A66BEE300414C9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = lephuocdai;
+				TargetAttributes = {
+					F04DD5321A66BEE400414C9B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F04DD5481A66BEE400414C9B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F04DD5321A66BEE400414C9B;
+					};
+				};
+			};
+			buildConfigurationList = F04DD52E1A66BEE300414C9B /* Build configuration list for PBXProject "PhotoTimer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F04DD52A1A66BEE300414C9B;
+			productRefGroup = F04DD5341A66BEE400414C9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F04DD5321A66BEE400414C9B /* PhotoTimer */,
+				F04DD5481A66BEE400414C9B /* PhotoTimerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F04DD5311A66BEE400414C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04DD5421A66BEE400414C9B /* Main.storyboard in Resources */,
+				F04DD5441A66BEE400414C9B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04DD5471A66BEE400414C9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F04DD52F1A66BEE400414C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04DD53F1A66BEE400414C9B /* ViewController.m in Sources */,
+				F04DD53C1A66BEE400414C9B /* AppDelegate.m in Sources */,
+				F04DD5391A66BEE400414C9B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F04DD5451A66BEE400414C9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04DD5501A66BEE400414C9B /* PhotoTimerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F04DD54B1A66BEE400414C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04DD5321A66BEE400414C9B /* PhotoTimer */;
+			targetProxy = F04DD54A1A66BEE400414C9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F04DD5401A66BEE400414C9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F04DD5411A66BEE400414C9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F04DD5511A66BEE400414C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F04DD5521A66BEE400414C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F04DD5541A66BEE400414C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhotoTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F04DD5551A66BEE400414C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhotoTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F04DD5571A66BEE400414C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoTimer.app/PhotoTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		F04DD5581A66BEE400414C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoTimer.app/PhotoTimer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PhotoTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F04DD52E1A66BEE300414C9B /* Build configuration list for PBXProject "PhotoTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04DD5511A66BEE400414C9B /* Debug */,
+				F04DD5521A66BEE400414C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F04DD5531A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04DD5541A66BEE400414C9B /* Debug */,
+				F04DD5551A66BEE400414C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F04DD5561A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F04DD5571A66BEE400414C9B /* Debug */,
+				F04DD5581A66BEE400414C9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F04DD52B1A66BEE300414C9B /* Project object */;
+}
