@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+
+pod 'MTDates'
+
+target :specs do
+    link_with 'PhotoTimerTests'
+
+    pod 'Specta'
+    pod 'OCMockito'
+    pod 'Expecta'
+end

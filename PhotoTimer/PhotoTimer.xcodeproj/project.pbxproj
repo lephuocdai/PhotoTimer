@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		226A9C5AC4F896E0C1D5BBC2 /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A99EB81525213EF5F8B2432 /* libPods-specs.a */; };
+		7ADCF321E0D17445319BAB6F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB3E25AF12F85A1AD31446A /* libPods.a */; };
 		F04DD5391A66BEE400414C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD5381A66BEE400414C9B /* main.m */; };
 		F04DD53C1A66BEE400414C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD53B1A66BEE400414C9B /* AppDelegate.m */; };
 		F04DD53F1A66BEE400414C9B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD53E1A66BEE400414C9B /* ViewController.m */; };
 		F04DD5421A66BEE400414C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F04DD5401A66BEE400414C9B /* Main.storyboard */; };
 		F04DD5441A66BEE400414C9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F04DD5431A66BEE400414C9B /* Images.xcassets */; };
 		F04DD5501A66BEE400414C9B /* PhotoTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD54F1A66BEE400414C9B /* PhotoTimerTests.m */; };
+		F04DD5631A66C3C700414C9B /* ImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD5621A66C3C700414C9B /* ImageLoader.m */; };
+		F04DD5651A66C40600414C9B /* ImageLoaderTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD5641A66C40600414C9B /* ImageLoaderTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,9 +27,35 @@
 			remoteGlobalIDString = F04DD5321A66BEE400414C9B;
 			remoteInfo = PhotoTimer;
 		};
+		F04DD5591A66BFAF00414C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04DD52B1A66BEE300414C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04DD5321A66BEE400414C9B;
+			remoteInfo = PhotoTimer;
+		};
+		F04DD55B1A66BFAF00414C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04DD52B1A66BEE300414C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04DD5321A66BEE400414C9B;
+			remoteInfo = PhotoTimer;
+		};
+		F04DD55D1A66C09000414C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F04DD52B1A66BEE300414C9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F04DD5321A66BEE400414C9B;
+			remoteInfo = PhotoTimer;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		192B4CBBF58D513BBC63AA9D /* Pods-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-specs/Pods-specs.debug.xcconfig"; sourceTree = "<group>"; };
+		5CB1AB3664BCE79DDEB86C8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		85E4C185ADFDB0E23289BC4A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		8A99EB81525213EF5F8B2432 /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB3E25AF12F85A1AD31446A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04DD5331A66BEE400414C9B /* PhotoTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04DD5371A66BEE400414C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04DD5381A66BEE400414C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,6 +68,11 @@
 		F04DD5491A66BEE400414C9B /* PhotoTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F04DD54E1A66BEE400414C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F04DD54F1A66BEE400414C9B /* PhotoTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoTimerTests.m; sourceTree = "<group>"; };
+		F04DD55F1A66C2B100414C9B /* Specs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Specs.h; sourceTree = "<group>"; };
+		F04DD5611A66C3C700414C9B /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoader.h; sourceTree = "<group>"; };
+		F04DD5621A66C3C700414C9B /* ImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoader.m; sourceTree = "<group>"; };
+		F04DD5641A66C40600414C9B /* ImageLoaderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoaderTest.m; sourceTree = "<group>"; };
+		FBB10AC8594F1DBECCFAB6A2 /* Pods-specs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.release.xcconfig"; path = "Pods/Target Support Files/Pods-specs/Pods-specs.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ADCF321E0D17445319BAB6F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +88,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				226A9C5AC4F896E0C1D5BBC2 /* libPods-specs.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9386F7C70627729B64679C15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85E4C185ADFDB0E23289BC4A /* Pods.debug.xcconfig */,
+				5CB1AB3664BCE79DDEB86C8E /* Pods.release.xcconfig */,
+				192B4CBBF58D513BBC63AA9D /* Pods-specs.debug.xcconfig */,
+				FBB10AC8594F1DBECCFAB6A2 /* Pods-specs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2777884BD3B387D03C7F12D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CB3E25AF12F85A1AD31446A /* libPods.a */,
+				8A99EB81525213EF5F8B2432 /* libPods-specs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F04DD52A1A66BEE300414C9B = {
 			isa = PBXGroup;
 			children = (
 				F04DD5351A66BEE400414C9B /* PhotoTimer */,
 				F04DD54C1A66BEE400414C9B /* PhotoTimerTests */,
 				F04DD5341A66BEE400414C9B /* Products */,
+				9386F7C70627729B64679C15 /* Pods */,
+				A2777884BD3B387D03C7F12D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +138,7 @@
 		F04DD5351A66BEE400414C9B /* PhotoTimer */ = {
 			isa = PBXGroup;
 			children = (
+				F04DD5601A66C38A00414C9B /* Model */,
 				F04DD53A1A66BEE400414C9B /* AppDelegate.h */,
 				F04DD53B1A66BEE400414C9B /* AppDelegate.m */,
 				F04DD53D1A66BEE400414C9B /* ViewController.h */,
@@ -104,6 +164,7 @@
 			children = (
 				F04DD54F1A66BEE400414C9B /* PhotoTimerTests.m */,
 				F04DD54D1A66BEE400414C9B /* Supporting Files */,
+				F04DD55F1A66C2B100414C9B /* Specs.h */,
 			);
 			path = PhotoTimerTests;
 			sourceTree = "<group>";
@@ -116,6 +177,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F04DD5601A66C38A00414C9B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F04DD5611A66C3C700414C9B /* ImageLoader.h */,
+				F04DD5621A66C3C700414C9B /* ImageLoader.m */,
+				F04DD5641A66C40600414C9B /* ImageLoaderTest.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -123,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04DD5531A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimer" */;
 			buildPhases = (
+				6E00D6E82AEEA7924F9FAE54 /* Check Pods Manifest.lock */,
 				F04DD52F1A66BEE400414C9B /* Sources */,
 				F04DD5301A66BEE400414C9B /* Frameworks */,
 				F04DD5311A66BEE400414C9B /* Resources */,
+				46361C7A9BEC5DC4CB62E7B0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -140,14 +213,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F04DD5561A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimerTests" */;
 			buildPhases = (
+				157FBFF2C59B39FB242C4B9B /* Check Pods Manifest.lock */,
 				F04DD5451A66BEE400414C9B /* Sources */,
 				F04DD5461A66BEE400414C9B /* Frameworks */,
 				F04DD5471A66BEE400414C9B /* Resources */,
+				5BAA45302D61AF85FD93E26D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				F04DD54B1A66BEE400414C9B /* PBXTargetDependency */,
+				F04DD55A1A66BFAF00414C9B /* PBXTargetDependency */,
+				F04DD55C1A66BFAF00414C9B /* PBXTargetDependency */,
+				F04DD55E1A66C09000414C9B /* PBXTargetDependency */,
 			);
 			name = PhotoTimerTests;
 			productName = PhotoTimerTests;
@@ -210,6 +288,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		157FBFF2C59B39FB242C4B9B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46361C7A9BEC5DC4CB62E7B0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BAA45302D61AF85FD93E26D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-specs/Pods-specs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E00D6E82AEEA7924F9FAE54 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F04DD52F1A66BEE400414C9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -217,6 +358,7 @@
 			files = (
 				F04DD53F1A66BEE400414C9B /* ViewController.m in Sources */,
 				F04DD53C1A66BEE400414C9B /* AppDelegate.m in Sources */,
+				F04DD5631A66C3C700414C9B /* ImageLoader.m in Sources */,
 				F04DD5391A66BEE400414C9B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +367,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04DD5651A66C40600414C9B /* ImageLoaderTest.m in Sources */,
 				F04DD5501A66BEE400414C9B /* PhotoTimerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -236,6 +379,21 @@
 			isa = PBXTargetDependency;
 			target = F04DD5321A66BEE400414C9B /* PhotoTimer */;
 			targetProxy = F04DD54A1A66BEE400414C9B /* PBXContainerItemProxy */;
+		};
+		F04DD55A1A66BFAF00414C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04DD5321A66BEE400414C9B /* PhotoTimer */;
+			targetProxy = F04DD5591A66BFAF00414C9B /* PBXContainerItemProxy */;
+		};
+		F04DD55C1A66BFAF00414C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04DD5321A66BEE400414C9B /* PhotoTimer */;
+			targetProxy = F04DD55B1A66BFAF00414C9B /* PBXContainerItemProxy */;
+		};
+		F04DD55E1A66C09000414C9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F04DD5321A66BEE400414C9B /* PhotoTimer */;
+			targetProxy = F04DD55D1A66C09000414C9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -329,6 +487,7 @@
 		};
 		F04DD5541A66BEE400414C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85E4C185ADFDB0E23289BC4A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -340,6 +499,7 @@
 		};
 		F04DD5551A66BEE400414C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB1AB3664BCE79DDEB86C8E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -351,6 +511,7 @@
 		};
 		F04DD5571A66BEE400414C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192B4CBBF58D513BBC63AA9D /* Pods-specs.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoTimer.app/PhotoTimer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -371,6 +532,7 @@
 		};
 		F04DD5581A66BEE400414C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB10AC8594F1DBECCFAB6A2 /* Pods-specs.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PhotoTimer.app/PhotoTimer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -404,6 +566,7 @@
 				F04DD5551A66BEE400414C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F04DD5561A66BEE400414C9B /* Build configuration list for PBXNativeTarget "PhotoTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +575,7 @@
 				F04DD5581A66BEE400414C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
