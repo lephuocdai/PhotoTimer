@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		226A9C5AC4F896E0C1D5BBC2 /* libPods-specs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A99EB81525213EF5F8B2432 /* libPods-specs.a */; };
+		55BC578D1A67B583003E7892 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BC578C1A67B583003E7892 /* ImageIO.framework */; };
 		7ADCF321E0D17445319BAB6F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB3E25AF12F85A1AD31446A /* libPods.a */; };
 		F04DD5391A66BEE400414C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD5381A66BEE400414C9B /* main.m */; };
 		F04DD53C1A66BEE400414C9B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F04DD53B1A66BEE400414C9B /* AppDelegate.m */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		192B4CBBF58D513BBC63AA9D /* Pods-specs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-specs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-specs/Pods-specs.debug.xcconfig"; sourceTree = "<group>"; };
+		55BC578C1A67B583003E7892 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		5CB1AB3664BCE79DDEB86C8E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		85E4C185ADFDB0E23289BC4A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		8A99EB81525213EF5F8B2432 /* libPods-specs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-specs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BC578D1A67B583003E7892 /* ImageIO.framework in Frameworks */,
 				7ADCF321E0D17445319BAB6F /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +112,7 @@
 		A2777884BD3B387D03C7F12D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				55BC578C1A67B583003E7892 /* ImageIO.framework */,
 				8CB3E25AF12F85A1AD31446A /* libPods.a */,
 				8A99EB81525213EF5F8B2432 /* libPods-specs.a */,
 			);

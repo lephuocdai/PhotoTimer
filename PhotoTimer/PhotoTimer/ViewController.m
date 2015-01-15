@@ -7,12 +7,16 @@
 //
 
 #import "ViewController.h"
+#import <ImageIO/ImageIO.h>
+#import <MTDates/NSDate+MTDates.h>
+
 
 
 static NSInteger count=0;
 
 @interface ViewController ()
             
+@property (strong, nonatomic) IBOutlet UILabel *dateLabel;
 
 @end
 
@@ -32,12 +36,16 @@ static NSInteger count=0;
 }
 
 -(void)getAllPictures {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setDateFormat:@"yyyy-MM-dd HH:mm:ss"];
+    [dateFormatter setLocale:[[NSLocale alloc] initWithLocaleIdentifier:@"en_US"]];
+    
     imageArray=[[NSArray alloc] init];
     mutableArray =[[NSMutableArray alloc]init];
     NSMutableArray* assetURLDictionaries = [[NSMutableArray alloc] init];
     
     library = [[ALAssetsLibrary alloc] init];
-    
+    NSLog(@"nsstring = %@", [NSString class]);
     void (^assetEnumerator)( ALAsset *, NSUInteger, BOOL *) = ^(ALAsset *result, NSUInteger index, BOOL *stop) {
         if(result != nil) {
             if([[result valueForProperty:ALAssetPropertyType] isEqualToString:ALAssetTypePhoto]) {
@@ -47,19 +55,19 @@ static NSInteger count=0;
                 
                 [library assetForURL:url
                          resultBlock:^(ALAsset *asset) {
-                            
-//                             [mutableArray addObject:[UIImage imageWithCGImage:[[asset defaultRepresentation] fullScreenImage]]];
-                             [mutableArray addObject:url];
-                             NSLog(@"count = %d - url=%@",count, url);
-                             if ([mutableArray count]==count)
-                             {
-                                 imageArray=[[NSArray alloc] initWithArray:mutableArray];
-                                 [self allPhotosCollected:imageArray];
-                             }
                              
+                             NSDictionary *metadata = asset.defaultRepresentation.metadata;
+//                             NSDate *date = [[NSDate alloc] init];
+//                             date = [dateFormatter dateFromString:[NSString stringWithFormat:@"%@", [[metadata objectForKey:@"{Exif}"] objectForKey:@"DateTimeOriginal"]]];
+//                             NSLog(@"DateTimeOriginal = %@", [[[metadata objectForKey:@"{Exif}"] objectForKey:@"DateTimeOriginal"] class]);
+                             NSLog(@"metadata = %@", [[metadata objectForKey:@"{Exif}"] objectForKey:@"DateTimeOriginal"]);
+                             NSString *dateDescription = [[metadata objectForKey:@"{Exif}"] objectForKey:@"DateTimeOriginal"];
+                             if (dateDescription) {
+                                 NSDictionary *dict = [[NSDictionary alloc] initWithObjectsAndKeys:@"url", url, @"date", dateDescription, nil];
+                                 [mutableArray addObject:dict];
+                             }
                          }
                         failureBlock:^(NSError *error){ NSLog(@"operation was not successfull!"); } ];
-                
             }
         }
     };
@@ -71,6 +79,7 @@ static NSInteger count=0;
             [group enumerateAssetsUsingBlock:assetEnumerator];
             [assetGroups addObject:group];
             count=[group numberOfAssets];
+            NSLog(@"count = %d", count);
         }
     };
     
@@ -84,6 +93,18 @@ static NSInteger count=0;
 -(void)allPhotosCollected:(NSArray*)imgArray {
     //write your code here after getting all the photos from library...
     NSLog(@"all pictures are %@",imgArray);
+}
+- (IBAction)getPhotoButtonPushed:(id)sender {
+    NSLog(@"mutableArray coutn = %d", mutableArray.count);
+    
+//    for (NSDictionary *dict in mutableArray) {
+//        NSDate *date = (NSDate*)[dict objectForKey:@"date"];
+//        NSLog(@"seconds = %f", [date mt_secondsIntoDay]);
+//        if ([date mt_secondsIntoDay] == [[NSDate date] mt_secondsIntoDay]) {
+//            self.dateLabel.text = [date mt_stringFromDateWithFullMonth];
+//            return;
+//        }
+//    }
 }
 
 @end
